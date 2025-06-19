@@ -110,3 +110,8 @@ else:
 str = "Vasim Pathan"
 for x in str:
   print(x)
+
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
