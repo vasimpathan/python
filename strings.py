@@ -115,3 +115,15 @@ for x in str:
 txt = "The best things in life are free!"
 if "expensive" not in txt:
   print("No, 'expensive' is NOT present.")
+
+#Escape characters
+txt = "It called \"Python\""
+print(txt)
+txt = "It will add one \\ (backslash)"
+print(txt)
+txt = "tab1\ttab2" # it will add tab
+print(txt)
+txt = "Line one\nNew Line 2" # it will add new line
+print(txt)
+txt = "Vasim \bPathan" # it will add backspace
+print(txt)
