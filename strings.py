@@ -60,4 +60,53 @@ print(f"My name is {name}")
 
 
 print("Hello is the changes directly added from git hub")
+# string operations
+print("It's not me")
 
+# multiline string
+str = """I am vasim pathan.
+I am belong to solapur district.
+I am a software developer with 10 years of experience in IT industry"""
+print(str)
+
+# String are array
+str = "Vasim Pathan"
+print(str[1])
+print(str[0:5])
+print(str[:5])
+print(str[-1])
+print(str[:-5])
+
+# Concatanation string
+s1 = "Vasim"
+s2 = "Pathan"
+str = s1 + s2
+print(str)
+
+# length of string 
+print(len(str))
+
+#string cases
+str = "vasim"
+print(str.lower())
+print(str.upper())
+print(str.capitalize())
+
+#Replace
+str = "Wasim Pathan"
+str1 = "Vasim"
+print(str.replace("Wasim",str1))
+
+#check string
+str = "Vasim pathan Angar"
+print("Vasim" in str)
+
+if "Vasim" in str:
+  print("Yes present")
+else:
+  print("Not present")
+
+# looping through a string
+str = "Vasim Pathan"
+for x in str:
+  print(x)
